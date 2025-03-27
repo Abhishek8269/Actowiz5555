@@ -1,0 +1,74 @@
+.token-container {
+  width: 40%;
+  max-width: 500px;
+  margin: auto;
+  padding: 25px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  background: white;
+
+  
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.token-container h2 {
+  font-size: 20px;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.token-container input {
+  width: 90%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.token-container button {
+  padding: 10px 15px;
+  background: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: background 0.3s ease-in-out;
+}
+
+.token-container button:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
+
+.token-container button:hover:enabled {
+  background: #0056b3;
+}
+
+
+.token-text {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #444;
+
+  
+  width: 100%;
+  max-width: 90%;
+  padding: 10px;
+  border: 1px solid #eee;
+  background: #f8f9fa;
+  border-radius: 5px;
+  text-align: left;
+  
+  
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  white-space: normal;
+  overflow: hidden;
+}
